@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 10 A</title>
+	 <link rel="stylesheet"  href="../css/L10A_173040145.css">
+	<style>
+		
+	</style>
+</head>
+<body>
+
+	<button type="button" id="tombol1">Ubah Warna</button>
+	<div id="kotak"></div>
+
+	<script>
+		var tombol1 = document.getElementById('tombol1');
+		var kotak = document.getElementById('kotak');
+
+		tombol1.addEventListener('click', function(){
+			kotak.style.backgroundColor = '#bada55';
+			kotak.style.transition = '1s';
+		});
+	</script>
+</body>
+</html>
